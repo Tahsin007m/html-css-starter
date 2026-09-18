@@ -1,0 +1,47 @@
+#b1{
+    border: solid;
+    border-width: 5px;
+    border-color: rgb(6, 20, 100);
+    border-radius: 20px;
+}
+#b2{
+    border: dashed;
+    border-width: 5px;
+    border-color: rgb(138, 17, 10);
+    border-radius: 0px;
+}
+#b3{
+    border: dotted;
+    border-width: 6px;
+    border-color: rgb(6, 89, 21);
+    border-radius: 5px;
+}
+#b4{
+    border: double;
+    border-width: 8px;
+    border-color: rgb(49, 55, 55);
+    border-radius: 10px;
+}
+#b5{
+    border: groove;
+    border-width: 5px;
+    border-color: rgb(163, 12, 92);
+    border-radius: 6px;
+}
+#b6{
+    border: inset;
+    border-width: 7px;
+    border-color: rgb(215, 222, 13);
+    border-radius: 2px;
+}
+#b7{
+    border: outset;
+    border-width: 7px;
+    border-color: rgb(229, 211, 11);
+    border-radius: 2px;
+}
+#b8{
+    border: ridge;
+    border-width: 10px;
+    border-color: rgb(0, 0, 0);
+}
