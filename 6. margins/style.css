@@ -1,0 +1,22 @@
+h1{
+    margin-left: 45%;
+    margin-top: 10px;
+}
+.box{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    font-size: 5em;
+    font-style: bold;
+}
+#box1{
+    background-color: tomato;
+    margin: 50px;
+}
+#box2{
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

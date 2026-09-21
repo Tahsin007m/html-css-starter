@@ -1,0 +1,29 @@
+div{
+    background-color: tomato; 
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+span{
+    background-color: cyan;
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+
+/*
+8
+display: block;           full-width box, starts on a new line 
+display: contents;        box disappears, children move up to the parent's layout 
+display: flex;            block-level flex container — 1D row/column layout for children 
+display: flexbox;         legacy alias from the old 2009/2012 flexbox drafts — don't use 
+display: flow-root;       block box with a new formatting context — contains floats, no margin collapse 
+display: grid;            block-level grid container — 2D rows-and-columns layout 
+display: inline;          flows in text; width/height and vertical margins ignored 
+display: inline-block;    flows in text but accepts width, height, and vertical margins 
+display: inline-flex;     flex container that sits inline with surrounding text 
+display: inline-flexbox;  legacy alias for inline-flex — don't use 
+display: inline-table;    table layout, but the table sits inline instead of on its own line 
+display: list-item;       block box plus a marker (bullet/number) — the default for <li> 
+
+*/
