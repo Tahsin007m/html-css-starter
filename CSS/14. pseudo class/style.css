@@ -1,0 +1,14 @@
+a:link{
+    color: rgb(5, 165, 34);
+}
+a:hover{
+    color: rgb(222, 233, 17);
+    font-size: 20px;
+}
+a:active{
+    color: darkblue;
+    font-size: 20px;
+}
+a:visiting{
+    color: blanchedalmond;
+}
