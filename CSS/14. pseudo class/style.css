@@ -1,14 +1,17 @@
-a:link{
-    color: rgb(5, 165, 34);
+li:hover{
+    background-color: yellow;
 }
-a:hover{
-    color: rgb(222, 233, 17);
-    font-size: 20px;
+li:not(:hover){
+    background-color: gray;
 }
-a:active{
-    color: darkblue;
-    font-size: 20px;
+li:nth-child(5){  /*we can also write even and odd*/
+    background-color: aqua;
 }
-a:visiting{
-    color: blanchedalmond;
+#greeting p{
+    background-color: rgb(27, 126, 192);
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
 }
