@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CSS Transform Properties</h1>
+    <p class="hint">Hover over each box to see the transform applied. The dashed outline shows the original position.</p>
+
+    <div class="grid">
+
+        <section class="card">
+            <h2>1. translate()</h2>
+            <code>transform: translate(50px, 40px);</code>
+            <div class="stage"><div class="box translate">Hi</div></div>
+        </section>
+
+        <section class="card">
+            <h2>2. rotate()</h2>
+            <code>transform: rotate(45deg);</code>
+            <div class="stage"><div class="box rotate">Hi</div></div>
+        </section>
+
+        <section class="card">
+            <h2>3. scale()</h2>
+            <code>transform: scale(1.5);</code>
+            <div class="stage"><div class="box scale">Hi</div></div>
+        </section>
+
+        <section class="card">
+            <h2>4. skew()</h2>
+            <code>transform: skew(20deg, 10deg);</code>
+            <div class="stage"><div class="box skew">Hi</div></div>
+        </section>
+
+        <section class="card">
+            <h2>5. Combined</h2>
+            <code>transform: translate(40px, 20px) rotate(30deg) scale(0.8);</code>
+            <div class="stage"><div class="box combined">Hi</div></div>
+        </section>
+
+        <section class="card">
+            <h2>6. transform-origin</h2>
+            <code>transform-origin: top left;<br>transform: rotate(45deg);</code>
+            <div class="stage"><div class="box origin">Hi</div></div>
+        </section>
+
+        <section class="card">
+            <h2>7. Order matters</h2>
+            <code>rotate(45deg) translate(80px, 0)</code>
+            <div class="stage"><div class="box order-a">A</div></div>
+            <code>translate(80px, 0) rotate(45deg)</code>
+            <div class="stage"><div class="box order-b">B</div></div>
+        </section>
+
+        <section class="card">
+            <h2>8. 3D rotate</h2>
+            <code>transform: perspective(400px) rotateY(50deg);</code>
+            <div class="stage"><div class="box rotate3d">Hi</div></div>
+        </section>
+
+    </div>
+</body>
+</html>
